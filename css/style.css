@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteneur {
+    width: 1279px;
+    margin: auto;
+}
+header{
+    display: inline-block;
+    height: 104px;
+    width: 1279px;
+
+}
+h1{
+    width: 27%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4em;
+}
+nav {
+    width: 60%;
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+}
+section{
+    text-align: center;
+}
+#section1 {
+    height: 826px;
+}
+#section2 {
+    height: 616px;
+}
+#section3 {
+    height: 602px;
+}
+footer {
+    height: 208px;
+}
