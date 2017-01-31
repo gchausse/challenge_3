@@ -1,9 +1,12 @@
 * {
     font-family: serif;
+    padding: 0;
+    margin: 0;
 }
 
 #container {
     width: 45%;
+    margin: auto;
 }
 
 form {
@@ -12,8 +15,8 @@ form {
     padding-bottom: 2em;
 }
 
-h1 {
-    background-color: #2A88AD;
+div > h1 {
+    /*background-color: #2A88AD;*/
     color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -24,9 +27,8 @@ h1 {
 }
 
 span {
-    background-color: #2A88AD;
+    /*background-color: #2A88AD;*/
     color: white;
-    display: block;
     /*font-size: 15px;
     padding-left: 2.25em;
     padding-top: 0.25em;
@@ -46,10 +48,11 @@ h2 span {
 }
 
 h2 {
-    color: #2A88AD;
+    /*color: #2A88AD;*/
     font-size: 18px;
     font-weight: normal;
     margin-bottom: 0.25em;
+    color: white;
 }
 
 fieldset {
@@ -80,10 +83,10 @@ fieldset input {
 }
 
 #submit {
-    background-color: #2a88ad;
+    /*background-color: #2a88ad;*/
     border: medium none;
     border-radius: 5px;
-    color: white;
+    color: #2b3f48;
     margin-left: 3em;
     margin-right: 10em;
     margin-top: 1em;
@@ -97,4 +100,69 @@ form > label {
 
 #terms {
     vertical-align: middle;
+}
+.conteneur {
+    margin: auto;
+}
+
+header h1{
+    margin-top: 0.75em;
+    width: 20%;
+    display: inline-block;
+    margin-left: 1em ;
+    color: #2b3f48;
+}
+header{
+    height: 25%;
+    width: 80%;
+    margin: auto;
+}
+nav {
+    width: 75%;
+    display: inline-block;
+    padding-bottom: 1.5em;
+}
+ul li{
+    display: inline-block;
+    margin: 1em;
+}
+
+li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color .3s;
+    color: #2B3F48;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 1em;
+}
+.active {
+    color: #00bb63;
+}
+
+ul li a:hover:not(.active) {
+    background-color: #ddd;
+}
+section{
+    text-align: center;
+}
+section:nth-child(1) {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00bb63;
+    color: white;
+}
+footer p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    color: #656565;
+    letter-spacing: 2px;
+    padding: 4em 0;
+}
+footer p a {
+    text-decoration: none;
+    color: #2b3f48;
 }
